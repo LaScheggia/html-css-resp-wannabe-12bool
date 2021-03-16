@@ -26,7 +26,7 @@ img {
   .wrap-container.why{
     padding-bottom: 20px;
   }
-  
+
   img {
     height: auto;
     width: 200px;
@@ -60,6 +60,10 @@ img {
     background-color: rgb(100, 181, 246);
   }
 
+  .come-funziona-margin{
+    margin-top: 15px;
+  }
+
   hr {
     height: 3px;
     background-color: rgb(13, 71, 161);
@@ -84,7 +88,7 @@ img {
 }
 
 
-/* big over 992 */
+/* large over 992 */
 @media all and (min-width: 992px){
   .wrap-container.lezioni,
   .wrap-container.steps,
