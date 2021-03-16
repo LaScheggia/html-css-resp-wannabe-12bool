@@ -28,10 +28,18 @@ img {
   }
 
   .wrap-container.lezioni {
-    padding-bottom: 40px;
+    background-color: lightpink;
   }
 
-  .wrap-container.lezioni {
+  .wrap-container.lezioni .col-xs-12{
+    background-color: lightpink;
+  }
+
+  .wrap-container.why {
+    background-color: lightpink;
+  }
+
+  .wrap-container.why .col-lg-12{
     background-color: lightpink;
   }
 }
