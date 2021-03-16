@@ -1,0 +1,68 @@
+/* GENERAL */
+body {
+  text-align: center;
+}
+
+section {
+  margin-top: 85px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h1,
+h2 {
+  font-size: 2em;
+}
+
+img {
+  height: 200px;
+}
+
+/* WHY SECTION */
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* RESPONSIVE */
+/* mid 768px - 991px */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #steps div.col-md-5:last-of-type {
+    margin-top: 25px;
+  }
+
+  #steps{
+    background-color: lightpink;
+  }
+  
+  #why h1 {
+    margin: 0;
+  }
+  
+  #why .wrap-container > div {
+    margin-top: 40px;
+  }
+  
+  #why hr {
+    width: 50%;
+  }
+}
+
+/* resp xs < 768px */
+@media screen and (max-width: 767px) {
+  img {
+    height: auto;
+    width: 200px;
+    max-width: 100%;
+  }
+
+  #lezioni, 
+  #why{
+    background-color: lightyellow;
+  }
+
+  #steps div.col-md-6:last-of-type {
+    margin-top: 0px;
+  }
+}
